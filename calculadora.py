@@ -7,7 +7,6 @@ print("la resta es igual a,", a-b)
 print("la multiplicación es igual a,", a*b)
 
 if b!=0:
-
     print("la división es igual a,", a/b)
 
 else:
