@@ -1,5 +1,16 @@
-a=float(input("escribe el primer número:"))
-b=float(input("escribe el segundo número:"))
+while True:
+    try:
+        a = float(input("Enter the first number: "))
+        break
+    except ValueError:
+        print("Please enter a valid number.")
+
+while True:
+    try:
+        b = float(input("Enter the second number: "))
+        break
+    except ValueError:
+        print("Please enter a valid number.")
 
 print("la suma es igual a,", a+b)
 print("la resta es igual a,", a-b)
